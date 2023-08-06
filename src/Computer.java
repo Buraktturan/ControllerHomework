@@ -8,7 +8,7 @@ public class Computer extends Device {
         super("Computer", isOpen);
     }
 
-    public Computer(String name, boolean isOpen, GameController controller) {
+    public Computer(String name, boolean isOpen , GameController controller) {
         super("Computer", isOpen, controller);
     }
 
